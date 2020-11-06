@@ -1,0 +1,139 @@
+.header {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+
+  &__main {
+    background: url(../images/header-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+  &__title {
+    padding-top: 330px;
+    margin: 0;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: normal;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: normal;
+    margin-bottom: 25px;
+  }
+
+  &__subtitle {
+    display: block;
+    color: #ffffff;
+    font-size: 22px;
+    letter-spacing: normal;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: 1.1px;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 105px;
+  }
+
+  &__button {
+    // display: block;
+    // padding: 0 13px;
+    // margin-right: 25px;
+    margin: 0 13px;
+  }
+
+  &__left-button {
+    border: 3px solid #f8f8f8;
+  }
+
+  &__right-button {
+    background-color: #00897b;
+    border: 3px solid #00897b;
+  }
+}
+.header-top {
+  background-color: #ffffff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+
+  &__logo {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+
+  &__menu {
+  }
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 120px;
+  }
+}
+
+.menu {
+  &__list {
+    display: flex;
+  }
+
+  &__list-item {
+    list-style: none;
+    padding: 0 20px;
+  }
+  &__list-item:last-child {
+    padding-right: 0;
+  }
+
+  &__list-link {
+    text-decoration: none;
+    color: #212121;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+.fas {
+}
+.fa-search {
+}
+.header-buttons {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 25px 35px;
+}
+
+.header__arrow {
+  color: #fff;
+  display: block;
+  position: absolute;
+  bottom: 75px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 22px;
+  letter-spacing: 1.25px;
+}
